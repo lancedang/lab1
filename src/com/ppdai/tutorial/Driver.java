@@ -6,6 +6,7 @@ import java.io.InputStreamReader;
 
 /**
  * PPdai java tutorial
+ * 
  * @author dangdang
  * @version 2017.5.20
  *
@@ -13,7 +14,7 @@ import java.io.InputStreamReader;
 public class Driver {
 
 	public static void main(String[] args) throws IOException {
-		System.out.println("hello world");
+		// System.out.println("hello world");
 		// TODO Auto-generated method stub
 		BufferedReader bufferedReader = new BufferedReader(
 				new InputStreamReader(System.in));
