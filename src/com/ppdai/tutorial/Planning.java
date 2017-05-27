@@ -2,7 +2,7 @@ package com.ppdai.tutorial;
 
 /**
  * Planning is a class including class info
- * @author qiankai02
+ * @author dangdang
  * @version 2017.5.20
  */
 public class Planning {
