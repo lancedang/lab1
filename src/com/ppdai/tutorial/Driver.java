@@ -16,9 +16,12 @@ public class Driver {
 	public static void main(String[] args) throws IOException {
 		// System.out.println("hello world");
 		// TODO Auto-generated method stub
-		BufferedReader bufferedReader = new BufferedReader(
-				new InputStreamReader(System.in));
+		BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
 		String param = bufferedReader.readLine();
+		if (param == null || param.trim().equals("") || param.trim().contains(",") == false) {
+			System.out.println("Input Error!");
+			return;
+		}
 		Planning planning = new Planning(param);
 		System.out.println(planning);
 		bufferedReader.close();
